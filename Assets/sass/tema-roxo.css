@@ -1,0 +1,241 @@
+body.tema-roxo .topo nav {
+  background-color: transparent !important;
+}
+
+body.tema-roxo .topo nav .navbar-nav li:nth-child(6) {
+  border: 2px solid #2B004E;
+}
+
+body.tema-roxo .topo nav .navbar-nav li:nth-child(6) a {
+  color: #2B004E;
+}
+
+@media (max-width: 1100px) {
+  body.tema-roxo .topo nav {
+    background-color: transparent !important;
+  }
+  body.tema-roxo .topo nav .navbar-nav {
+    width: 100%;
+  }
+  body.tema-roxo .topo nav .navbar-nav li:nth-child(6) {
+    border: 2px solid #2B004E;
+  }
+  body.tema-roxo .topo nav .navbar-nav li:nth-child(6) a {
+    color: #2B004E;
+  }
+}
+
+@media (max-width: 991px) {
+  body.tema-roxo .topo nav #navbarNav.navbar-collapse.collapse.show {
+    background-color: black !important;
+  }
+  body.tema-roxo .topo nav #navbarNav.navbar-collapse.collapse.show .navbar-nav {
+    padding: 0;
+  }
+  body.tema-roxo .topo nav #navbarNav.navbar-collapse.collapse.show .navbar-nav li a {
+    color: white;
+  }
+  body.tema-roxo .topo nav #navbarNav.navbar-collapse.collapse.show .navbar-nav li:nth-child(6) {
+    border: 0px solid #2B004E;
+  }
+  body.tema-roxo .topo nav #navbarNav.navbar-collapse.collapse.show .navbar-nav li:nth-child(6) a {
+    border: 2px solid #FFD357;
+    color: #FFD357;
+  }
+  body.tema-roxo .topo nav #navbarNav,
+  body.tema-roxo .topo nav .navbar-collapse,
+  body.tema-roxo .topo nav .collapse,
+  body.tema-roxo .topo nav .teste {
+    background-color: black !important;
+  }
+  body.tema-roxo .topo nav #navbarNav .navbar-nav li a,
+  body.tema-roxo .topo nav .navbar-collapse .navbar-nav li a,
+  body.tema-roxo .topo nav .collapse .navbar-nav li a,
+  body.tema-roxo .topo nav .teste .navbar-nav li a {
+    color: white;
+  }
+  body.tema-roxo .topo nav #navbarNav .navbar-nav li:nth-child(6),
+  body.tema-roxo .topo nav .navbar-collapse .navbar-nav li:nth-child(6),
+  body.tema-roxo .topo nav .collapse .navbar-nav li:nth-child(6),
+  body.tema-roxo .topo nav .teste .navbar-nav li:nth-child(6) {
+    border: 0px solid #2B004E;
+  }
+  body.tema-roxo .topo nav #navbarNav .navbar-nav li:nth-child(6) a,
+  body.tema-roxo .topo nav .navbar-collapse .navbar-nav li:nth-child(6) a,
+  body.tema-roxo .topo nav .collapse .navbar-nav li:nth-child(6) a,
+  body.tema-roxo .topo nav .teste .navbar-nav li:nth-child(6) a {
+    border: 2px solid #FFD357;
+    color: #FFD357;
+  }
+}
+
+body.tema-roxo .banner {
+  background: #5d1952;
+  background: -webkit-gradient(linear, left top, right top, from(#5d1952), to(#2b004e));
+  background: linear-gradient(90deg, #5d1952 0%, #2b004e 100%);
+}
+
+body.tema-roxo .banner .conteudo-banner .titulo-banner h1 {
+  color: white;
+}
+
+body.tema-roxo .banner .conteudo-banner .titulo-banner h1 span {
+  color: #FFD357;
+}
+
+body.tema-roxo .banner .conteudo-banner .titulo-banner h3 {
+  color: white;
+}
+
+body.tema-roxo .banner .conteudo-banner .titulo-banner .tr {
+  border-bottom: 2px solid #FFD357;
+}
+
+body.tema-roxo .banner .conteudo-banner .artigo-banner .txt-artigo {
+  color: white;
+}
+
+body.tema-roxo .banner .conteudo-banner .footer-artigo-banner p {
+  color: #F9BDF6;
+}
+
+body.tema-roxo .banner .conteudo-banner .footer-artigo-banner ul li {
+  color: #FFD357;
+}
+
+body.tema-roxo .comofunciona h1 {
+  color: #2B004E;
+}
+
+body.tema-roxo .comofunciona p {
+  color: #6D6D6D;
+}
+
+body.tema-roxo .titulo-sist-integrados {
+  color: #2B004E;
+}
+
+body.tema-roxo .sistemasintegrados h1 {
+  color: #2B004E;
+}
+
+body.tema-roxo .sistemasintegrados > div p {
+  color: #6D6D6D;
+}
+
+body.tema-roxo .sistemasintegrados > div h3 {
+  color: #6D6D6D;
+}
+
+body.tema-roxo .artigo-passos > div h3 {
+  color: #6D6D6D;
+}
+
+body.tema-roxo .artigo-passos > div select {
+  border: 3px solid #2B004E;
+  color: #2B004E;
+}
+
+body.tema-roxo .multiplataforma h1 {
+  color: #2B004E;
+}
+
+body.tema-roxo .multiplataforma p {
+  color: #6D6D6D;
+}
+
+body.tema-roxo .accordion-tabs ul li a {
+  color: #6D6D6D;
+}
+
+body.tema-roxo .tabs-trigger.is-selected, body.tema-roxo .tabs-trigger.is-selected:hover, body.tema-roxo .tabs-trigger.is-selected:focus {
+  background-color: #1E013A;
+  color: #FFD357;
+  margin: 0;
+  border-bottom: 0;
+}
+
+body.tema-roxo .is-open #section-titulo {
+  background-color: #2B004E;
+  color: white;
+}
+
+body.tema-roxo .is-hidden #section-titulo {
+  background-color: unset;
+  color: #2B004E;
+}
+
+body.tema-roxo section > div .faixa {
+  background-color: #FFD357;
+}
+
+body.tema-roxo section > div h4 {
+  color: #6D6D6D;
+}
+
+body.tema-roxo .caracteristica h1 {
+  color: #2B004E;
+}
+
+body.tema-roxo .caracteristica p {
+  color: #6D6D6D;
+}
+
+body.tema-roxo .vantagens h1 {
+  color: #2B004E;
+}
+
+body.tema-roxo .vantagens p {
+  color: #6D6D6D;
+}
+
+body.tema-roxo .footer .footer-principal {
+  background-color: #2B004E;
+}
+
+body.tema-roxo .footer .footer-principal .content-principal-1 .txt-titulo h1 {
+  color: #FFD357;
+}
+
+body.tema-roxo .footer .footer-principal .content-principal-1 .txt-titulo p {
+  color: #F9BDF6;
+}
+
+body.tema-roxo .footer .footer-principal .content-principal-1 .txt h4 {
+  color: white;
+}
+
+body.tema-roxo .footer .footer-principal .content-principal-1 .txt h4 span {
+  color: #FFD357;
+}
+
+body.tema-roxo .footer .footer-principal .content-principal-1 .txt P {
+  color: white;
+}
+
+body.tema-roxo .footer .footer-principal .content-principal-2 input {
+  color: white;
+  background-color: #1E013A;
+}
+
+body.tema-roxo .footer .footer-principal .content-principal-2 button {
+  background-color: #FFD357;
+}
+
+body.tema-roxo .footer .footer-centro {
+  background-color: #1E013A;
+  color: white;
+}
+
+body.tema-roxo .footer .footer-centro > div > div ul li span {
+  color: #FFD357;
+}
+
+body.tema-roxo .footer .footer-centro > div > div ul li a {
+  color: white;
+}
+
+body.tema-roxo .footer .footer-final {
+  background-color: white;
+}
+/*# sourceMappingURL=tema-roxo.css.map */

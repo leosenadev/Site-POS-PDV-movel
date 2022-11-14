@@ -1,0 +1,392 @@
+
+// Variaveis
+
+$gradiente1:#000A03;
+$gradiente2:#000A03;
+
+$cor-1 : white;
+$cor-2 :#FFD357;
+$cor-3 :#F9BDF6;
+$cor-4 :#6D6D6D;
+
+//footer - titulos
+$cor-5 :#000A03;
+
+//footer2 - form
+$cor-6 :#121212;
+
+$cor-black: black;
+$cor-transparente: transparent;
+
+// Tema
+body.tema-preto {
+
+    //TOPO
+   .topo {
+      
+        
+        nav {
+          
+        
+          background-color: $cor-transparente !important;
+              
+
+          .navbar-nav {
+           
+          
+            li:nth-child(6) {
+              border: 2px solid $cor-5;
+              
+              a {
+                color: $cor-5;
+              }
+            }
+          }
+        }
+   }
+   @media(max-width:1100px){
+        .topo {
+         
+          
+          nav {
+           
+            background-color: $cor-transparente !important;
+          
+           
+            
+          
+  
+            .navbar-nav {
+              //border:1px solid black;
+              width: 100%;
+              
+              li:nth-child(6) {
+                border: 2px solid $cor-5;
+                
+                a {
+                  color:$cor-5;
+                }
+              }
+            }
+          }
+        }
+   }
+   @media (max-width: 991px) {
+        .topo {
+          
+
+         nav {
+            
+
+        
+            #navbarNav.navbar-collapse.collapse.show{
+  
+             
+  
+              background-color:$cor-black !important;
+            
+              .navbar-nav{
+                padding:0;
+                li{
+                 
+
+                  a{
+                    color:$cor-1; 
+                   
+                  }
+                   
+                }
+                li:nth-child(6){
+  
+                  border:0px solid $cor-5;
+                  
+                  a{
+                   
+                    border:2px solid $cor-2;
+                    color:$cor-2;
+                    
+                  }
+                }
+  
+              }
+              
+            }
+           
+            #navbarNav,
+            .navbar-collapse,
+            .collapse,
+            .teste {
+              background-color: $cor-black !important;
+
+              .navbar-nav {
+               
+                li {
+                
+
+                  a {
+                    color:$cor-1;
+                    
+                  }
+                }
+                li:nth-child(6) {
+                  border: 0px solid $cor-5;
+                 
+                  a {
+                   
+                    border: 2px solid $cor-2;
+                    color: $cor-2;
+                    
+                  }
+                }
+              }
+            }
+          }
+        }
+   }
+
+
+    //BANNER
+    .banner {
+         background:$gradiente1;
+        background : $gradiente2;
+       
+        .conteudo-banner{
+               
+                 
+            .titulo-banner{
+               
+                h1{
+                    color:$cor-1;
+                    span{
+                        color:$cor-2;
+                    }
+                }
+                h3{
+
+                    color:$cor-1;
+                }
+                .tr{
+                   border-bottom:2px solid $cor-2;
+                }
+
+            }
+            .artigo-banner{
+                .txt-artigo{
+                    color:$cor-1;
+
+                }
+
+            }
+            .footer-artigo-banner{
+                p{
+                    color:$cor-3;
+                }
+                ul{
+                    li{
+                        color:$cor-2;
+                    }
+                }
+
+
+            }
+            
+        }
+    }
+
+    //como funciona
+    .comofunciona{
+        h1{
+            color:$cor-5;
+        }
+        p{
+            color:$cor-4;
+        }
+    }
+    .artigo-passos{
+
+
+      >div{
+            
+        h3{
+
+          color:$cor-4;
+        }
+
+        select{
+
+          border:3px solid $cor-5;
+          color:$cor-5;
+        }
+
+      }
+    }
+    
+    //MULTIPLATAFORMA
+    .multiplataforma{
+       
+        
+
+        h1{
+            color:$cor-5;
+        }
+        p{
+            color:$cor-4;
+        }
+
+    }
+
+    //TABS
+    .accordion-tabs{
+      
+        ul{
+         
+          
+          li{
+            
+             a{
+               color:$cor-4;
+               
+             }
+          }
+
+        }
+        
+        
+        
+    }
+    .tabs-trigger.is-selected, .tabs-trigger.is-selected:hover, .tabs-trigger.is-selected:focus {
+       
+       background-color:$cor-6;
+       color:$cor-2;
+       margin:0;
+       border-bottom:0;
+             
+       
+    }
+    
+    //TAB ABERTO
+    .is-open{
+        #section-titulo{
+            background-color:$cor-5;
+          color:$cor-1;
+          
+        }
+    }
+    //TAB FECHADO
+    .is-hidden{
+      #section-titulo{
+          background-color:unset;
+          color:$cor-5;
+        
+      }
+    }
+    //TAB FAIXA
+    section{
+      >div{
+        .faixa{
+          background-color:$cor-2;
+        }
+
+        h4{
+          color: $cor-4;
+        }
+      }
+     
+    }     
+
+
+    //CARACTERISTICA
+    .caracteristica{
+
+        h1{
+            color:$cor-5;
+        }
+        p{
+            color:$cor-4;
+        }
+    }
+    //VANTAGENS
+    .vantagens{
+
+        h1{
+            color:$cor-5;
+        }
+        p{
+            color:$cor-4;
+        }
+    }
+
+     //FOOTER
+    .footer{
+        
+        .footer-principal{
+            background-color:$cor-5;
+            .content-principal-1{
+                .txt-titulo{
+                    h1{
+                        color:$cor-2;
+                    }
+                    p{
+                        color:$cor-3;
+                    }
+                }
+                .txt{
+                    h4{
+                          color:$cor-1;
+                        span{
+                            color:$cor-2;
+                        }
+                    }
+                    P{
+                      color:$cor-1;
+                    }
+
+                }
+            }
+            .content-principal-2{
+
+                input{
+                    color:$cor-1;
+                    background-color:$cor-6;
+                }
+                button{
+                    background-color:$cor-2;
+                }
+
+            }
+
+        }
+
+        .footer-centro{
+
+                background-color:$cor-6;
+                color:$cor-1;
+            
+
+            >div{ 
+            
+
+                
+                >div{
+                    ul{
+                        li{
+                            span{
+                                color:$cor-2;
+                            }
+                            a{
+                              color:$cor-1;
+                            }
+                        }
+                    }
+                }
+            
+            }
+        }
+        
+        .footer-final{
+            background-color: $cor-1;
+        }
+    }
+
+}
+

@@ -1,0 +1,191 @@
+/* Base Styles */
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: calc(2rem + 1.75vw);
+  line-height: 1.2;
+  margin: 0.5em 0;
+}
+
+h2, h3 {
+  margin-top: 0;
+}
+
+code {
+  font-family: Consolas,monaco,monospace;
+  line-height: 1.75;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 6px 8px 2px;
+  border-radius: 4px;
+  opacity: 0.65;
+}
+
+.logo {
+  margin: 0 0 1rem 0;
+  opacity: 0.9;
+}
+
+.main, .header, .footer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin: calc(1rem + 4vw) auto calc(1rem + 2vw);
+  padding-top: 4rem;
+}
+
+.tabs-tab-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tabs-tab-list li {
+  margin: 0;
+}
+
+.tabs-trigger {
+  border-bottom: none;
+  color: #666;
+  display: none;
+  font-weight: normal;
+  margin: 0 5px 0 1px;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+.tabs-trigger:hover {
+  border-bottom: none;
+  color: #000;
+}
+
+.tabs-trigger.is-selected, .tabs-trigger.is-selected:hover, .tabs-trigger.is-selected:focus {
+  border-bottom: 2px solid #000;
+  color: #000;
+}
+
+.tabs-trigger:active {
+  outline: none;
+}
+
+.tabs-panel {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.tabs-panel:not(:first-of-type) {
+  border-top: 2px solid #eee;
+}
+
+.tabs-panel:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+.tabs-panel:not(:last-child) {
+  border-bottom: none;
+}
+
+.tabs-panel .content {
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.tabs-panel.is-hidden .content {
+  display: none;
+}
+
+.tabs-panel:active, .tabs-panel:focus {
+  outline: none;
+}
+
+.is-initialized.tabs-allowed .tabs-panel {
+  display: inherit;
+}
+
+.accordeon-trigger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+  padding: 15px 20px;
+}
+
+.accordeon-trigger-icon {
+  pointer-events: none;
+}
+
+@media (min-width: 40em) {
+  .tabs-allowed .accordeon-trigger {
+    display: none;
+  }
+  .tabs-allowed .tabs-trigger {
+    display: block;
+  }
+  .tabs-allowed .tabs-panel {
+    display: none;
+  }
+  .tabs-allowed .tabs-panel.is-hidden {
+    display: none;
+  }
+  .tabs-allowed .tabs-panel {
+    border-top: 2px solid #eee;
+  }
+  .tabs-allowed .tabs-tab-list {
+    margin-bottom: -2px;
+  }
+}
+
+.accordeon-trigger-icon {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+}
+
+.accordeon-trigger-icon svg {
+  margin: 0;
+}
+
+[aria-expanded="true"] .vert {
+  display: none;
+}
+
+.label--open, .label--close {
+  display: block;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.label--close {
+  display: none;
+}
+
+.is-open .label--open {
+  display: none;
+}
+
+.is-open .label--close {
+  display: block;
+}
+/*# sourceMappingURL=styles.css.map */

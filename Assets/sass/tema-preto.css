@@ -1,0 +1,224 @@
+body.tema-preto .topo nav {
+  background-color: transparent !important;
+}
+
+body.tema-preto .topo nav .navbar-nav li:nth-child(6) {
+  border: 2px solid #000A03;
+}
+
+body.tema-preto .topo nav .navbar-nav li:nth-child(6) a {
+  color: #000A03;
+}
+
+@media (max-width: 1100px) {
+  body.tema-preto .topo nav {
+    background-color: transparent !important;
+  }
+  body.tema-preto .topo nav .navbar-nav {
+    width: 100%;
+  }
+  body.tema-preto .topo nav .navbar-nav li:nth-child(6) {
+    border: 2px solid #000A03;
+  }
+  body.tema-preto .topo nav .navbar-nav li:nth-child(6) a {
+    color: #000A03;
+  }
+}
+
+@media (max-width: 991px) {
+  body.tema-preto .topo nav #navbarNav.navbar-collapse.collapse.show {
+    background-color: black !important;
+  }
+  body.tema-preto .topo nav #navbarNav.navbar-collapse.collapse.show .navbar-nav {
+    padding: 0;
+  }
+  body.tema-preto .topo nav #navbarNav.navbar-collapse.collapse.show .navbar-nav li a {
+    color: white;
+  }
+  body.tema-preto .topo nav #navbarNav.navbar-collapse.collapse.show .navbar-nav li:nth-child(6) {
+    border: 0px solid #000A03;
+  }
+  body.tema-preto .topo nav #navbarNav.navbar-collapse.collapse.show .navbar-nav li:nth-child(6) a {
+    border: 2px solid #FFD357;
+    color: #FFD357;
+  }
+  body.tema-preto .topo nav #navbarNav,
+  body.tema-preto .topo nav .navbar-collapse,
+  body.tema-preto .topo nav .collapse,
+  body.tema-preto .topo nav .teste {
+    background-color: black !important;
+  }
+  body.tema-preto .topo nav #navbarNav .navbar-nav li a,
+  body.tema-preto .topo nav .navbar-collapse .navbar-nav li a,
+  body.tema-preto .topo nav .collapse .navbar-nav li a,
+  body.tema-preto .topo nav .teste .navbar-nav li a {
+    color: white;
+  }
+  body.tema-preto .topo nav #navbarNav .navbar-nav li:nth-child(6),
+  body.tema-preto .topo nav .navbar-collapse .navbar-nav li:nth-child(6),
+  body.tema-preto .topo nav .collapse .navbar-nav li:nth-child(6),
+  body.tema-preto .topo nav .teste .navbar-nav li:nth-child(6) {
+    border: 0px solid #000A03;
+  }
+  body.tema-preto .topo nav #navbarNav .navbar-nav li:nth-child(6) a,
+  body.tema-preto .topo nav .navbar-collapse .navbar-nav li:nth-child(6) a,
+  body.tema-preto .topo nav .collapse .navbar-nav li:nth-child(6) a,
+  body.tema-preto .topo nav .teste .navbar-nav li:nth-child(6) a {
+    border: 2px solid #FFD357;
+    color: #FFD357;
+  }
+}
+
+body.tema-preto .banner {
+  background: #000A03;
+  background: #000A03;
+}
+
+body.tema-preto .banner .conteudo-banner .titulo-banner h1 {
+  color: white;
+}
+
+body.tema-preto .banner .conteudo-banner .titulo-banner h1 span {
+  color: #FFD357;
+}
+
+body.tema-preto .banner .conteudo-banner .titulo-banner h3 {
+  color: white;
+}
+
+body.tema-preto .banner .conteudo-banner .titulo-banner .tr {
+  border-bottom: 2px solid #FFD357;
+}
+
+body.tema-preto .banner .conteudo-banner .artigo-banner .txt-artigo {
+  color: white;
+}
+
+body.tema-preto .banner .conteudo-banner .footer-artigo-banner p {
+  color: #F9BDF6;
+}
+
+body.tema-preto .banner .conteudo-banner .footer-artigo-banner ul li {
+  color: #FFD357;
+}
+
+body.tema-preto .comofunciona h1 {
+  color: #000A03;
+}
+
+body.tema-preto .comofunciona p {
+  color: #6D6D6D;
+}
+
+body.tema-preto .artigo-passos > div h3 {
+  color: #6D6D6D;
+}
+
+body.tema-preto .artigo-passos > div select {
+  border: 3px solid #000A03;
+  color: #000A03;
+}
+
+body.tema-preto .multiplataforma h1 {
+  color: #000A03;
+}
+
+body.tema-preto .multiplataforma p {
+  color: #6D6D6D;
+}
+
+body.tema-preto .accordion-tabs ul li a {
+  color: #6D6D6D;
+}
+
+body.tema-preto .tabs-trigger.is-selected, body.tema-preto .tabs-trigger.is-selected:hover, body.tema-preto .tabs-trigger.is-selected:focus {
+  background-color: #121212;
+  color: #FFD357;
+  margin: 0;
+  border-bottom: 0;
+}
+
+body.tema-preto .is-open #section-titulo {
+  background-color: #000A03;
+  color: white;
+}
+
+body.tema-preto .is-hidden #section-titulo {
+  background-color: unset;
+  color: #000A03;
+}
+
+body.tema-preto section > div .faixa {
+  background-color: #FFD357;
+}
+
+body.tema-preto section > div h4 {
+  color: #6D6D6D;
+}
+
+body.tema-preto .caracteristica h1 {
+  color: #000A03;
+}
+
+body.tema-preto .caracteristica p {
+  color: #6D6D6D;
+}
+
+body.tema-preto .vantagens h1 {
+  color: #000A03;
+}
+
+body.tema-preto .vantagens p {
+  color: #6D6D6D;
+}
+
+body.tema-preto .footer .footer-principal {
+  background-color: #000A03;
+}
+
+body.tema-preto .footer .footer-principal .content-principal-1 .txt-titulo h1 {
+  color: #FFD357;
+}
+
+body.tema-preto .footer .footer-principal .content-principal-1 .txt-titulo p {
+  color: #F9BDF6;
+}
+
+body.tema-preto .footer .footer-principal .content-principal-1 .txt h4 {
+  color: white;
+}
+
+body.tema-preto .footer .footer-principal .content-principal-1 .txt h4 span {
+  color: #FFD357;
+}
+
+body.tema-preto .footer .footer-principal .content-principal-1 .txt P {
+  color: white;
+}
+
+body.tema-preto .footer .footer-principal .content-principal-2 input {
+  color: white;
+  background-color: #121212;
+}
+
+body.tema-preto .footer .footer-principal .content-principal-2 button {
+  background-color: #FFD357;
+}
+
+body.tema-preto .footer .footer-centro {
+  background-color: #121212;
+  color: white;
+}
+
+body.tema-preto .footer .footer-centro > div > div ul li span {
+  color: #FFD357;
+}
+
+body.tema-preto .footer .footer-centro > div > div ul li a {
+  color: white;
+}
+
+body.tema-preto .footer .footer-final {
+  background-color: white;
+}
+/*# sourceMappingURL=tema-preto.css.map */
