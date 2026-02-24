@@ -4,4 +4,4 @@
 
 Construção de website, onepage.
 
-Utilizado as linguagens HTML, CSS3, Javascript, Jquery e alugns plugins.
+Utilizado as linguagens HTML, CSS3, Javascript, Jquery e Plugins.
